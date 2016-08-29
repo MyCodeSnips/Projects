@@ -4,5 +4,5 @@ def f(x):
     else:
         return -x
 
-for n in range(10):
+for n in range(20):
     print f(n)
