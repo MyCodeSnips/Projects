@@ -1,2 +1,8 @@
-def sum_of_squares(*agrv):
-    return sum([num**2 for num in *argv])
+def f(x):
+    if x >= 0:
+        return x
+    else:
+        return -x
+
+for n in range(10):
+    print f(n)
